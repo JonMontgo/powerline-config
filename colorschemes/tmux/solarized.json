@@ -1,0 +1,25 @@
+{
+  "name": "Solarized dark for tmux",
+  "groups": {
+    "active_window_status": {"fg": "solarized:blue", "bg": "solarized:base02", "attrs": []},
+    "window_status": {"fg": "solarized:base1", "bg": "solarized:base02", "attrs": []},
+    "activity_status": {"fg": "solarized:yellow", "bg": "solarized:base02", "attrs": []},
+    "bell_status": {"fg": "solarized:red", "bg": "solarized:base02", "attrs": []},
+    "window": {"fg": "solarized:base1", "bg": "solarized:base02", "attrs": []},
+    "window:divider": {"fg": "solarized:base01", "bg": "solarized:base02", "attrs": []},
+    "window:current": {"fg": "solarized:base3", "bg": "solarized:base01", "attrs": []},
+    "window_name": {"fg": "solarized:base3", "bg": "solarized:base01", "attrs": ["bold"]},
+    "session": {"fg": "solarized:base3", "bg": "solarized:base01", "attrs": []},
+    "session:prefix": {"fg": "solarized:base01", "bg": "solarized:base3", "attrs": []},
+    "hostname": {"fg": "solarized:base3", "bg": "solarized:cyan", "attrs": []},
+    "time": {"fg": "solarized:base3", "bg": "solarized:base00", "attrs": []},
+    "battery_gradient": {"fg": "solarized:base3", "bg": "green_yellow_orange_red", "attrs": []},
+    "network_load": {"fg": "solarized:base3", "bg": "solarized:base01", "attrs": []},
+    "player": {"fg": "solarized:base3", "bg": "solarized:base02", "attrs": []},
+    "player_play": {"fg": "solarized:base3", "bg": "solarized:green", "attrs": []},
+    "player_stop": {"fg": "solarized:base3", "bg": "solarized:red", "attrs": []},
+    "player_pause": {"fg": "solarized:base3", "bg": "solarized:yellow", "attrs": []},
+    "kubernetes": {"fg": "solarized:base3", "bg": "solarized:violet"},
+    "kubernetes:divider": {"fg": "solarized:base02", "bg": "solarized:violet"}
+  }
+}

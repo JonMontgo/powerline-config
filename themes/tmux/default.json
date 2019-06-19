@@ -1,0 +1,33 @@
+{
+  "segments": {
+    "right": [
+      {
+        "function": "powerline.segments.common.players.mpd",
+        "name": "player",
+        "args": {
+          "format": "{state_symbol} {title}"
+        }
+      },
+      {
+        "function": "powerline_kubernetes.kubernetes"
+      },
+      {
+        "function": "powerline.segments.common.net.network_load"
+      },
+      {
+        "function": "powerline.segments.common.time.date",
+        "name": "time",
+        "args": {
+          "format": "%m-%d %I:%M %p",
+          "istime": true
+        }
+      },
+      {
+        "function": "powerline.segments.common.bat.battery"
+      },
+      {
+        "function": "powerline.segments.common.net.hostname"
+      }
+    ]
+  }  
+}
