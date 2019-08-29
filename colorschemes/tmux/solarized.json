@@ -19,7 +19,7 @@
     "player_play": {"fg": "solarized:base3", "bg": "solarized:green", "attrs": []},
     "player_stop": {"fg": "solarized:base3", "bg": "solarized:red", "attrs": []},
     "player_pause": {"fg": "solarized:base3", "bg": "solarized:yellow", "attrs": []},
-    "kubernetes": {"fg": "solarized:base3", "bg": "solarized:violet"},
-    "kubernetes:divider": {"fg": "solarized:base02", "bg": "solarized:violet"}
+    "kubernetes": {"fg": "solarized:base3", "bg": "solarized:violet", "attrs": []},
+    "kubernetes:divider": {"fg": "solarized:base02", "bg": "solarized:violet", "attrs": []}
   }
 }
